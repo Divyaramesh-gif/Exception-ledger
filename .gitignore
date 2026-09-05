@@ -1,27 +1,17 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
 .venv/
+.venv312/
 venv/
+
 .env
+.env.*
+
 *.sqlite
 *.sqlite3
 *.db
-.DS_Store
 
-# Derived artifacts — regenerate with: python3 -m src.pipeline
 out/
-.venv312/
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-.env.*
-.venv312/
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-.env.*
+.DS_Store
