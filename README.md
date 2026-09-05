@@ -143,9 +143,8 @@ folding the two together would flatter every metric on this page.
 |---|---|
 | `data/generate_dataset.py` | Seeded synthetic dataset and ground truth |
 | `src/source_records.py` | Record shape and the three-file loader |
-| `src/validation.py` | Four checks in order; first failure wins |
-| `src/quarantine_log.py` |
-|Append-only quarantine table| `src/normalizationpy` | Deterministic cleaning, with an optional AI assist |
+| `src/quarantine_log.py` | Current-batch quarantine table |
+| `src/normalization.py` | Deterministic cleaning, with an optional AI assist |
 | `src/matcher.py` | Score matrix and greedy one-to-one assignment |
 | `src/evidence.py` | Plain field-by-field diff, with no verdict attached |
 | `src/rule_engine.py` | Classification rules and operational checks |
